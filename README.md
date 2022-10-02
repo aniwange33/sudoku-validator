@@ -38,3 +38,5 @@ mvn surefire-report:report
  
 cmd.exe /c validate.bat validFile.txt
 
+it will return 0
+
