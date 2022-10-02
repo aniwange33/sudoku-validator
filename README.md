@@ -32,5 +32,7 @@ mvn surefire-report:report
 
 ## in order to launch
 
-As it said, please use validate.bat or validate.sh
+ please use validate.bat 
+
+ ** test: cmd.exe /c validate.bat validFile.txt
 

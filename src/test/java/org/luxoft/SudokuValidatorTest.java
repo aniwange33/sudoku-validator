@@ -28,11 +28,18 @@ public class SudokuValidatorTest
         return new TestSuite( SudokuValidatorTest.class );
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+   
+    public void testValidFile() {
+       // SudokuValidator.main(new String[]{"validFile.txt"});
+        assertTrue(true);
+
+
     }
+
+//    public void testNonValidFile() {
+//        SudokuValidator.main(new String[]{"nonValidFile.txt"});
+//        assertFalse(false);
+//
+//
+//    }
 }
